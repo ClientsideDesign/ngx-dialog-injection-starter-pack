@@ -26,6 +26,7 @@ import { MatInputModule } from '@angular/material/input';
   ],
   providers: [],
   bootstrap: [AppComponent],
+  entryComponents: [DialogWrapperComponent, DialogFormComponent],
   exports: [MatDialogModule]
 })
 export class AppModule { }
