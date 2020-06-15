@@ -20,16 +20,15 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'dialog-inject-example'`, () => {
+  it(`should have as title 'ngx-dialog-injection-starter-pack'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('dialog-inject-example');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('dialog-inject-example app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('ngx-dialog-injection-starter-pack app is running!');
   });
 });
